@@ -6,6 +6,8 @@ const app=express()
 //create a todos app to store todo of the users 
 app.get('/', function(req,res){
     res.send("Hello world")
-})
+}) 
+
+//added coment
 
 app.listen(port) 
